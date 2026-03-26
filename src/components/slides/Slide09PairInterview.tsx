@@ -21,7 +21,7 @@ const steps = [
     step: "STEP 3",
     title: "본인 추가 설명 + 포맷 결정",
     lines: [
-      "발표 후 본인이 추가 · 수정 설명",
+      "발표 후 본인이 추가·수정 설명",
       "모과가 함께 포맷 제안 (릴스 · 쓰레드 · 블로그 등)",
     ],
   },
@@ -30,19 +30,16 @@ const steps = [
 const Slide09PairInterview = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">Pair Interview</p>
-    <h2 className="text-4xl font-bold text-foreground mb-14">
+    <h2 className="text-4xl font-bold text-foreground mb-10">
       짝 인터뷰 — 내 짝의 이키가이를 채워주세요
     </h2>
-    <div className="flex-1 flex flex-col justify-center gap-10">
+    <div className="flex-1 flex flex-col justify-center gap-6">
       {steps.map((s) => (
-        <div key={s.step} className="flex items-start gap-8">
-          <span className="text-2xl font-bold text-slide-cream whitespace-nowrap">{s.step}</span>
-          <div>
-            <p className="text-2xl font-bold text-foreground mb-2">{s.title}</p>
-            {s.lines.map((line, i) => (
-              <p key={i} className="text-xl text-muted-foreground">{line}</p>
-            ))}
-          </div>
+        <div key={s.step} className="bg-slide-cream rounded-2xl px-12 py-8">
+          <p className="text-2xl font-bold text-background mb-3">{s.step}. {s.title}</p>
+          {s.lines.map((line, i) => (
+            <p key={i} className="text-xl text-background/85 leading-relaxed">{line}</p>
+          ))}
         </div>
       ))}
     </div>

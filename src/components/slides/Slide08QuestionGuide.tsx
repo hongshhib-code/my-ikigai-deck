@@ -51,14 +51,14 @@ const Slide08QuestionGuide = () => (
     </h2>
     <div className="flex-1 grid grid-cols-2 gap-6">
       {sections.map((s) => (
-        <div key={s.label} className="bg-secondary rounded-2xl p-7">
-          <p className="text-xl font-bold text-slide-cream mb-4">
+        <div key={s.label} className="bg-slide-cream rounded-2xl p-8">
+          <p className="text-xl font-bold text-background mb-4">
             {s.num} {s.label}
           </p>
-          <ul className="space-y-2">
+          <ul className="space-y-3">
             {s.items.map((item, i) => (
-              <li key={i} className="text-base text-foreground/90 flex items-start gap-2">
-                <span className="text-slide-cream mt-1">·</span>
+              <li key={i} className="text-base text-background/90 flex items-start gap-2">
+                <span className="text-background/60 mt-0.5">·</span>
                 {item}
               </li>
             ))}

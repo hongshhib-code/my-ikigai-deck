@@ -3,7 +3,7 @@ import ScaledSlide from "../ScaledSlide";
 const items = [
   { num: "01", title: "자기소개 / Start Why", desc: "내가 SNS를 시작하고 싶은 진짜 이유는?" },
   { num: "02", title: "Deep Dive", desc: "몇 시간이고 지치지 않고 즐겁게 이야기할 수 있는 주제는?" },
-  { num: "03", title: "Breakthrough", desc: "콘텐츠 시작을 가장 강하게 가로막는 걸림돌은?" },
+  { num: "03", title: "Breakthrough", desc: "SNS를 시작하지 못했던 가장 큰 이유는?" },
 ];
 
 const Slide02Flow = () => (

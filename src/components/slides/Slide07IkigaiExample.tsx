@@ -6,7 +6,7 @@ const Slide07IkigaiExample = () => (
     <h2 className="text-4xl font-bold text-foreground mb-4 text-center">
       이키가이(Ikigai) 벤다이어그램
     </h2>
-    <div className="flex-1 grid grid-cols-[320px_1fr_320px] gap-0 items-center">
+    <div className="flex-1 grid grid-cols-[18%_64%_18%] gap-x-2 items-center">
       {/* Left column: top & bottom text */}
       <div className="flex flex-col justify-between h-full py-4">
         <div className="text-right pr-3">

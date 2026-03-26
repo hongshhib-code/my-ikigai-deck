@@ -13,11 +13,10 @@ const Slide04DeepDive = () => (
     <h2 className="text-4xl font-bold text-foreground mb-16">
       몇 시간이고 지치지 않고 즐겁게 이야기할 수 있는 주제는?
     </h2>
-    <div className="flex-1 flex flex-col justify-center gap-10 max-w-[1400px]">
+    <div className="flex-1 flex flex-col justify-center gap-6">
       {items.map((item, i) => (
-        <div key={i} className="flex items-center gap-6">
-          <span className="w-3 h-3 rounded-full bg-slide-cream shrink-0" />
-          <p className="text-2xl text-foreground">{item}</p>
+        <div key={i} className="bg-slide-cream rounded-2xl px-12 py-7">
+          <p className="text-2xl text-background font-medium">{item}</p>
         </div>
       ))}
     </div>

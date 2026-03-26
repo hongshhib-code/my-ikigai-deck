@@ -46,18 +46,16 @@ const sections = [
 const Slide08QuestionGuide = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">Question Guide</p>
-    <h2 className="text-3xl font-bold text-foreground mb-8">
-      항목별 질문 가이드 — 막막하다면 이 질문들로 시작해보세요
-    </h2>
+    <h2 className="text-4xl font-bold text-foreground mb-10">항목별 질문 가이드</h2>
     <div className="flex-1 grid grid-cols-2 gap-6">
       {sections.map((s) => (
-        <div key={s.label} className="bg-slide-cream rounded-2xl p-8">
-          <p className="text-xl font-bold text-background mb-4">
+        <div key={s.label} className="bg-slide-cream rounded-2xl p-10">
+          <p className="text-2xl font-bold text-background mb-5">
             {s.num} {s.label}
           </p>
-          <ul className="space-y-3">
+          <ul className="space-y-4">
             {s.items.map((item, i) => (
-              <li key={i} className="text-base text-background/90 flex items-start gap-2">
+              <li key={i} className="text-xl text-background/90 flex items-start gap-3">
                 <span className="text-background/60 mt-0.5">·</span>
                 {item}
               </li>

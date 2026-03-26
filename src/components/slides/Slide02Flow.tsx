@@ -10,13 +10,13 @@ const Slide02Flow = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">Today's Flow</p>
     <h2 className="text-4xl font-bold text-foreground mb-16">오늘 함께할 3가지</h2>
-    <div className="flex-1 flex flex-col justify-center gap-14">
+    <div className="flex-1 flex flex-col justify-center gap-8">
       {items.map((item) => (
-        <div key={item.num} className="flex items-start gap-8">
-          <span className="text-5xl font-bold text-slide-cream leading-none">{item.num}</span>
+        <div key={item.num} className="bg-slide-cream rounded-2xl px-12 py-8 flex items-center gap-10">
+          <span className="text-5xl font-bold text-background leading-none">{item.num}</span>
           <div>
-            <p className="text-2xl font-bold text-foreground mb-2">{item.title}</p>
-            <p className="text-xl text-muted-foreground">{item.desc}</p>
+            <p className="text-2xl font-bold text-background mb-1">{item.title}</p>
+            <p className="text-xl text-background/80">{item.desc}</p>
           </div>
         </div>
       ))}

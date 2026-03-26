@@ -11,10 +11,12 @@ const Slide07IkigaiExample = () => (
       <div className="absolute left-0 top-0 w-[340px] text-right pr-4 pt-2">
         <p className="text-lg font-bold text-slide-cream mb-2">좋아하는 것</p>
         <p className="text-base text-foreground/80 leading-relaxed">
-          예쁜 것이라면 다 좋아함 (물건·작품·사람)<br />
-          패션·뷰티 덕후 (스트릿부터 페미닌까지)<br />
-          현대미술 보는 것 / 정성껏 만든 음식<br />
-          주인의 개성이 담긴 공간 / 웨이트 트레이닝
+          예쁜 것이라면 다 좋아함<br />
+          (물건·작품·사람)<br />
+          패션·뷰티 덕후<br />
+          현대미술 보는 것<br />
+          주인의 개성이 담긴 공간<br />
+          웨이트 트레이닝
         </p>
       </div>
 

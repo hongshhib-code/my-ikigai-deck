@@ -15,7 +15,7 @@ const Slide04DeepDive = () => (
     </h2>
     <div className="flex-1 flex flex-col justify-center gap-6">
       {items.map((item, i) => (
-        <div key={i} className="bg-slide-cream rounded-2xl px-12 py-7 w-fit max-w-[50%]">
+        <div key={i} className="bg-slide-cream rounded-2xl px-12 py-7 w-[50%]">
           <p className="text-2xl text-background font-medium">{item}</p>
         </div>
       ))}

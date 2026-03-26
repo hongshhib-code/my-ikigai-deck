@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['"SUIT Variable"', '"SUIT"', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +49,13 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        slide: {
+          bg: "hsl(var(--slide-bg))",
+          cream: "hsl(var(--slide-cream))",
+          "cream-muted": "hsl(var(--slide-cream-muted))",
+          text: "hsl(var(--slide-text))",
+          "text-muted": "hsl(var(--slide-text-muted))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

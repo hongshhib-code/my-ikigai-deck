@@ -11,7 +11,7 @@ const Slide05Breakthrough = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">Breakthrough</p>
     <h2 className="text-4xl font-bold text-foreground mb-14">
-      콘텐츠 시작을 가장 강하게 가로막는 걸림돌은?
+      SNS를 시작하지 못했던 가장 큰 이유는?
     </h2>
     <div className="flex-1 grid grid-cols-2 gap-8">
       {cards.map((card) => (

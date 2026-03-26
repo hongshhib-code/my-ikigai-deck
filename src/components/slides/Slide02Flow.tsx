@@ -9,7 +9,7 @@ const items = [
 const Slide02Flow = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">Today's Flow</p>
-    <h2 className="text-4xl font-bold text-foreground mb-16">오늘 함께할 3가지</h2>
+    <h2 className="text-4xl font-bold text-foreground mb-16">함께 나눌 이야기</h2>
     <div className="flex-1 flex flex-col justify-center gap-8">
       {items.map((item) => (
         <div key={item.num} className="bg-slide-cream rounded-2xl px-12 py-8 flex items-center gap-10">

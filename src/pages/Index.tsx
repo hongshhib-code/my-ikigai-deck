@@ -16,14 +16,14 @@ const slides = [
   Slide01Cover,
   Slide02MokwaIntro,
   Slide03Flow,
-  Slide03StartWhy,
-  Slide04DeepDive,
-  Slide05Breakthrough,
-  Slide06Ikigai,
-  Slide07IkigaiExample,
-  Slide08QuestionGuide,
-  Slide09PairInterview,
-  Slide10Action,
+  Slide04StartWhy,
+  Slide05DeepDive,
+  Slide06Breakthrough,
+  Slide07Ikigai,
+  Slide08IkigaiExample,
+  Slide09QuestionGuide,
+  Slide10PairInterview,
+  Slide11Action,
 ];
 
 const Index = () => {

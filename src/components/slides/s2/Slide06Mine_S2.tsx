@@ -9,7 +9,7 @@ const items = [
 const Slide06Mine_S2 = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">APPLY</p>
-    <h2 className="text-4xl font-bold text-foreground mb-16 leading-snug">
+    <h2 className="text-4xl font-bold text-foreground mb-16">
       레퍼런스에서 나만의 차별화 포인트 만들기
     </h2>
     <div className="flex-1 flex flex-col justify-center gap-10">

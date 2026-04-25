@@ -13,14 +13,14 @@ const Slide03HowTo_S2 = () => (
     <h2 className="text-4xl font-bold text-foreground mb-16">
       레퍼런스 분석하기
     </h2>
-    <div className="flex-1 flex items-center justify-center gap-6">
+    <div className="flex-1 flex items-stretch justify-center gap-6">
       {items.map((item) => (
         <div
           key={item.title}
-          className="flex-1 bg-slide-cream rounded-2xl p-10 flex flex-col items-center text-center gap-4"
+          className="flex-1 basis-0 bg-slide-cream rounded-2xl p-8 flex flex-col items-center text-center gap-4"
         >
           <span className="text-5xl">{item.emoji}</span>
-          <p className="text-2xl font-bold text-accent-foreground">{item.title}</p>
+          <p className="text-2xl font-bold text-accent-foreground whitespace-nowrap">{item.title}</p>
           <p className="text-lg text-accent-foreground/70 leading-relaxed">{item.desc}</p>
         </div>
       ))}

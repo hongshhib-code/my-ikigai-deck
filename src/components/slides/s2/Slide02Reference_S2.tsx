@@ -1,18 +1,21 @@
 import ScaledSlide from "../../ScaledSlide";
+import bookImage from "@/assets/s2-reference-book.jpg";
 
 const Slide02Reference_S2 = () => (
   <ScaledSlide>
-    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">레퍼런스란?</p>
-    <h2 className="text-4xl font-bold text-foreground mb-3">
-      새로움을 만드는 재배치, 재맥락화
+    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">DEFINITION</p>
+    <h2 className="text-4xl font-bold text-foreground mb-10">
+      레퍼런스: 새로움을 만드는 재배치, 재맥락화
     </h2>
-    <p className="text-base italic text-muted-foreground mb-12">— 에디토리얼 씽킹</p>
-    <div className="flex-1 flex items-center">
-      <div className="bg-slide-cream rounded-2xl px-16 py-14 max-w-[1400px]">
-        <p className="text-2xl text-background leading-relaxed">
-          우리가 '레퍼런스'라고 부르는 것은 단순한 모방의 대상이 아닙니다. 이미 존재하는 것들을 새로운 방식으로 조합하고, 다른 맥락에 놓음으로써 새로운 의미를 만드는 재료입니다.
-        </p>
-      </div>
+    <div className="flex-1 flex flex-col items-center justify-center gap-8">
+      <img
+        src={bookImage}
+        alt="에디토리얼 씽킹 책"
+        className="max-h-[520px] w-auto rounded-xl object-contain shadow-2xl"
+      />
+      <p className="text-xl text-foreground/90 leading-relaxed text-center max-w-[1400px]">
+        하늘 아래 새로운 것이 정말로 없는 과잉생산 시대에 독창성을 '처음부터 끝까지 새로운 것을 만들어내는 능력'이 아니라 '재배치를 통해 차이를 만들어 내는 능력'으로 봐야 한다.
+      </p>
     </div>
   </ScaledSlide>
 );

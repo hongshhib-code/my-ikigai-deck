@@ -9,9 +9,9 @@ const items = [
 
 const Slide03HowTo_S2 = () => (
   <ScaledSlide>
-    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">레퍼런스 활용법</p>
+    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">ANALYSIS</p>
     <h2 className="text-4xl font-bold text-foreground mb-16">
-      이걸 보면 됩니다
+      레퍼런스 분석하기
     </h2>
     <div className="flex-1 flex items-center">
       <div className="grid grid-cols-4 gap-6 w-full">

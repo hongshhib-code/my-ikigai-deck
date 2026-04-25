@@ -8,9 +8,9 @@ const items = [
 
 const Slide06Mine_S2 = () => (
   <ScaledSlide>
-    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">내 것으로 만들기</p>
+    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">APPLY</p>
     <h2 className="text-4xl font-bold text-foreground mb-16 leading-snug">
-      찾아온 레퍼런스에서 '내 것'으로<br />만들 수 있는 게 뭔가요?
+      레퍼런스에서 나만의 차별화 포인트 만들기
     </h2>
     <div className="flex-1 flex flex-col justify-center gap-10">
       <div className="grid grid-cols-3 gap-6">

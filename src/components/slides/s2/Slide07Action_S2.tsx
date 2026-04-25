@@ -2,9 +2,9 @@ import ScaledSlide from "../../ScaledSlide";
 
 const Slide07Action_S2 = () => (
   <ScaledSlide>
-    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">기획안 작성</p>
+    <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">ACTION</p>
     <h2 className="text-4xl font-bold text-foreground mb-16">
-      오늘 가져가는 것
+      지금 바로, 두번째 기획안 작성하기
     </h2>
     <div className="flex-1 flex flex-col justify-center gap-10 max-w-[1400px]">
       <div className="bg-slide-cream rounded-2xl p-12">

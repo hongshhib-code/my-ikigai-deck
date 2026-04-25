@@ -3,7 +3,7 @@ import ScaledSlide from "../../ScaledSlide";
 const Slide04FarField_S2 = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">EXPAND</p>
-    <h2 className="text-4xl font-bold text-foreground mb-12">
+    <h2 className="text-4xl font-bold text-foreground mb-16">
       독창적인 아이디어를 만드는 치트키
     </h2>
     <div className="flex-1 flex flex-col justify-center gap-8 max-w-[1500px]">

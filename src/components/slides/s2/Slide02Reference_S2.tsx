@@ -4,7 +4,7 @@ import bookImage from "@/assets/s2-reference-book.jpg";
 const Slide02Reference_S2 = () => (
   <ScaledSlide>
     <p className="text-lg text-slide-cream font-semibold mb-2 tracking-widest uppercase">DEFINITION</p>
-    <h2 className="text-4xl font-bold text-foreground mb-10">
+    <h2 className="text-4xl font-bold text-foreground mb-16">
       레퍼런스: 새로움을 만드는 재배치, 재맥락화
     </h2>
     <div className="flex-1 flex flex-col items-center justify-center gap-8">

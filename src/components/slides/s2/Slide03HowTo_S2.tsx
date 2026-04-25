@@ -13,17 +13,19 @@ const Slide03HowTo_S2 = () => (
     <h2 className="text-4xl font-bold text-foreground mb-16">
       레퍼런스 분석하기
     </h2>
-    <div className="flex-1 flex items-center justify-center gap-6">
-      {items.map((item) => (
-        <div
-          key={item.title}
-          className="w-64 h-auto bg-slide-cream rounded-2xl p-8 flex flex-col items-center text-center gap-4"
-        >
-          <span className="text-5xl">{item.emoji}</span>
-          <p className="text-2xl font-bold text-accent-foreground whitespace-nowrap">{item.title}</p>
-          <p className="text-lg text-accent-foreground/70 leading-relaxed">{item.desc}</p>
-        </div>
-      ))}
+    <div className="flex-1 flex flex-col justify-center gap-10">
+      <div className="flex items-center justify-center gap-10">
+        {items.map((item) => (
+          <div
+            key={item.title}
+            className="flex-1 bg-slide-cream rounded-2xl p-12 flex flex-col items-center text-center gap-4"
+          >
+            <span className="text-5xl">{item.emoji}</span>
+            <p className="text-2xl font-bold text-accent-foreground">{item.title}</p>
+            <p className="text-xl text-accent-foreground/70 leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </ScaledSlide>
 );

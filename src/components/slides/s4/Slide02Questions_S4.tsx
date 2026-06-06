@@ -12,7 +12,7 @@ const Slide02Questions_S4 = () => (
     <h2 className="text-4xl font-bold text-foreground mb-16">
       세 가지 질문과 마침표
     </h2>
-    <div className="flex-1 flex items-center justify-center gap-10">
+    <div className="flex-1 flex items-stretch justify-center gap-10">
       {cards.map((card) => (
         <div
           key={card.num}

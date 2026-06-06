@@ -2,10 +2,23 @@ import ScaledSlide from "../../ScaledSlide";
 
 const Slide01Cover_S4 = () => (
   <ScaledSlide>
-    <div className="absolute inset-0 bg-white" />
-    <div className="absolute left-0 top-0 bottom-0 w-[30px] bg-background" />
-    <div className="absolute inset-0 flex items-center">
-      <div className="ml-[120px] bg-slide-cream w-[60%] py-24 px-20 rounded-sm">
+    <div style={{ position: "absolute", inset: "-80px", background: "white", zIndex: 0 }} />
+    <div
+      style={{
+        position: "absolute",
+        left: -80,
+        top: -80,
+        bottom: -80,
+        width: 30,
+        zIndex: 1,
+      }}
+      className="bg-background"
+    />
+    <div className="relative z-10 w-full h-full flex items-center">
+      <div
+        className="ml-[120px] bg-slide-cream w-[60%] px-20 rounded-sm flex flex-col justify-center"
+        style={{ height: "40%" }}
+      >
         <h1 className="text-5xl font-bold text-background leading-tight mb-6">
           나만의 콘텐츠 공식 완성
         </h1>
@@ -14,7 +27,7 @@ const Slide01Cover_S4 = () => (
         </p>
       </div>
     </div>
-    <div className="absolute bottom-10 left-[120px]">
+    <div className="absolute bottom-10 left-[120px] z-10">
       <p className="text-base text-background/60">마케터 모과 · 첫걸음 마케팅</p>
     </div>
   </ScaledSlide>
